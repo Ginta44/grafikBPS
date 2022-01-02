@@ -80,26 +80,6 @@ EditText firstNum_1, secondNum_1;
             }
         });
 
-//        GraphView graphView = (GraphView) findViewById(R.id.graph1);
-//        LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[] {
-//           new DataPoint(2017, 5),
-//                new DataPoint(2018, 7),
-//                new DataPoint(2019, 8),
-//                new DataPoint(2020, 7),
-//                new DataPoint(2021, 10)
-//
-//        });
-//        graphView.addSeries(series);
-//
-//        GraphView graphView1 = (GraphView) findViewById(R.id.graph2);
-//        LineGraphSeries<DataPoint> series1 = new LineGraphSeries<>(new DataPoint[] {
-//                new DataPoint(2017, 5),
-//                new DataPoint(2018, 7),
-//                new DataPoint(2019, 8),
-//                new DataPoint(2020, 7),
-//                new DataPoint(2021, 10)
-//        });
-//        graphView1.addSeries(series1);
 
         actionBar = getSupportActionBar();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

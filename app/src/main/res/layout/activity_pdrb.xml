@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#E3E3E3"
-    tools:context=".ipm">
+    tools:context=".pdrb">
 
     <TextView
         android:layout_width="match_parent"
@@ -23,12 +23,12 @@
     </com.jjoe64.graphview.GraphView>
 
     <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="190dp"
-            android:orientation="horizontal">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="190dp"
+        android:orientation="horizontal">
 
 
         <LinearLayout
@@ -38,20 +38,20 @@
             android:layout_marginStart="13dp"
             android:orientation="vertical">
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/firstNum_1"
-            android:hint="value X"
-            android:inputType="number">
-        </EditText>
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/secondNum_1"
-            android:hint="value Y"
-            android:inputType="number">
-        </EditText>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstNum_1"
+                android:hint="value X"
+                android:inputType="number">
+            </EditText>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/secondNum_1"
+                android:hint="value Y"
+                android:inputType="number">
+            </EditText>
         </LinearLayout>
 
         <LinearLayout
@@ -122,36 +122,16 @@
                 android:inputType="number">
             </EditText>
         </LinearLayout>
-        </LinearLayout>
+    </LinearLayout>
 
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/addButton"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="17dp"
-            android:text="Upload"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="Upload"></Button>
 </RelativeLayout>
-
-
-<!--    <RelativeLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:padding="40dp"-->
-<!--        >-->
-
-<!--        <com.jjoe64.graphview.GraphView-->
-<!--            android:id="@+id/graph1"-->
-<!--            android:layout_width="400dp"-->
-<!--            android:layout_height="200dp" />-->
-
-<!--        <com.jjoe64.graphview.GraphView-->
-<!--            android:id="@+id/graph2"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="400dp"-->
-<!--            android:layout_below="@id/graph1"-->
-<!--            android:layout_marginTop="0dp"></com.jjoe64.graphview.GraphView>-->
-<!--    </RelativeLayout>-->
 
